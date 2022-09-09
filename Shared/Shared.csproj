@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+     <RootNamespace>Progress.Shared</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Domain\" />
+    <None Remove="Domain\Agregates\" />
+    <None Remove="Domain\Agregates\Process\" />
+    <None Remove="Exception\" />
+    <None Remove="Domain\Abstract\" />
+    <None Remove="Domain\Errors\" />
+    <None Remove="Domain\Errors\Dto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\Agregates\" />
+    <Folder Include="Domain\Agregates\Process\" />
+    <Folder Include="Exception\" />
+    <Folder Include="Domain\Abstract\" />
+    <Folder Include="Domain\Errors\" />
+    <Folder Include="Domain\Errors\Dto\" />
+  </ItemGroup>
+</Project>
